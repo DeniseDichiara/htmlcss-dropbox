@@ -99,6 +99,10 @@ header{
 .radio-button{
     background-color: crimson;
 }
+
+.section-4-contacts{
+    display: flex;
+}
 .quadratoni{
     background-color: #ffd830;
     height: 700px;
@@ -114,3 +118,18 @@ footer{
     background-color: black;
 }
 
+.img-ppl{
+    background-color: rgb(236, 143, 201);
+    flex-direction: row;
+    border-right: 0.2rem dotted yellow;
+    width: 70%;
+    height: 100%;
+}
+
+.img-ppl-text{
+    background-color: red;
+    flex-direction: row;
+    border-right: 0.2rem dotted yellow;
+    width: 30%;
+    height: 100%;
+}
