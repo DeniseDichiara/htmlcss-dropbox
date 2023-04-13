@@ -65,6 +65,26 @@ header{
     width: 70%;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: deeppink;
+}
+
+.botton{
+    background-color: #0061ff;
+}
+
+.quadratoni{
+    background-color: #ffd830;
+    height: 700px;
+}
+
+.FAQ{
+    background-color: violet;
+    height: 700px;
+}
+
 footer{
     height: 200px;
     background-color: black;
