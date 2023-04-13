@@ -35,6 +35,36 @@ header{
     font-size: 5px;
 }
 
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    background-color: #b4d0e7;
+}
+
+.jumbotron-section{
+    background-color: mediumvioletred;
+    height: 400px;
+    width: 700px;
+    margin-top: 5rem;
+}
+
+.jumbotron-section-central{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 100%;
+}
+
+.firstpa{
+    background-color: blueviolet;
+    width: 30%;
+}
+
+.imagine1{
+    background-color: yellowgreen;
+    width: 70%;
+}
+
 footer{
     height: 200px;
     background-color: black;
