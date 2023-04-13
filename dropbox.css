@@ -9,8 +9,17 @@ header{
     height: 80px;
 }
 
-.flex-navbar-start{
+.flex-navbar{
     display: flex;
     justify-content: space-between;
 
+}
+
+.logo{
+    font-size: 5px;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
 }
