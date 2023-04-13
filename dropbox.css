@@ -71,10 +71,34 @@ header{
     background-color: deeppink;
 }
 
+.main-section{
+    background-color: orange;
+    height: 300px;
+    width: 600px;
+    margin-top: 5rem;
+}
+
+.containersection-2{
+    display: flex;
+    background-color: black;
+    height: 100%;
+}
+
+.div-container{
+    background-color: rgb(236, 143, 201);
+    flex-direction: row;
+    border-right: 0.2rem dotted yellow;
+    width: 33%;
+    height: 100%;
+}
+
 .botton{
     background-color: #0061ff;
 }
 
+.radio-button{
+    background-color: crimson;
+}
 .quadratoni{
     background-color: #ffd830;
     height: 700px;
@@ -89,3 +113,4 @@ footer{
     height: 200px;
     background-color: black;
 }
+
