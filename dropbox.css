@@ -121,8 +121,36 @@ header{
 }
 
 .quadratoni{
+    display: flex;
+    flex-direction: row;
     background-color: #ffd830;
-    height: 700px;
+    height: 500px;
+}
+
+.container-quadratoni{
+    height: 100%;
+    width: 33%;
+    background-color: darkblue;
+    border-right: 0.2rem dotted yellow;
+}
+
+.quadratoni-BOTTOM{
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+.flex-quadratoni-BOTTOM{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quadratoni-start-end{
+    background-color: rgb(236, 143, 201);
+    flex-direction: row;
+    border-right: 0.2rem dotted yellow;
+    border-bottom: 0.2rem dotted yellow; ;
+    width: 25%;
+    height: 25%;
 }
 
 .FAQ{
@@ -130,9 +158,10 @@ header{
     height: 700px;
 }
 
-footer{
-    height: 200px;
-    background-color: black;
+.footer-scection{
+    background-color: crimson;
+    height: 100%;
+    width: 150px;
 }
 
 .img-ppl{
