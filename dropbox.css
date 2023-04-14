@@ -128,11 +128,31 @@ header{
 }
 
 .container-quadratoni{
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
     width: 33%;
     background-color: darkblue;
     border-right: 0.2rem dotted yellow;
 }
+
+.subcontainer-quadratoni{
+    background-color: rgb(236, 143, 201);
+    flex-direction: row;
+    border-right: 0.2rem dotted yellow;
+    border-bottom: 0.2rem dotted yellow; ;
+    width: 50%;
+    height: 50%;
+}
+
+/* 
+.subcontainer-quadratoni{
+    height: 100%;
+    width: 25%;
+    background-color: cyan;
+    border-right: 0.2rem dotted yellow;
+}
+*/
 
 .quadratoni-BOTTOM{
     background-color: cornflowerblue;
