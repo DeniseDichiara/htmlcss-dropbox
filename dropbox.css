@@ -194,3 +194,25 @@ header{
     width: 30%;
     height: 100%;
 }
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    background-color: turquoise;
+    height: 300px;
+    width: 1000px;
+    margin-top: 5rem;
+}
+
+.footer-column{
+    flex-direction: row;
+    border-right: 0.2rem dotted red;
+    width: calc(100% / 5);
+    height: 100%;
+}
