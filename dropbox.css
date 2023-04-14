@@ -92,6 +92,15 @@ header{
     height: 100%;
 }
 
+.div-container5{
+    background-color: rgb(236, 143, 201);
+    flex-direction: row;
+    border-right: 0.2rem dotted yellow;
+    border-bottom: 0.2rem dotted yellow; ;
+    width: 33%;
+    height: 50%;
+}
+
 .botton{
     background-color: #0061ff;
 }
@@ -103,6 +112,14 @@ header{
 .section-4-contacts{
     display: flex;
 }
+
+.containersection-5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100%;
+}
+
 .quadratoni{
     background-color: #ffd830;
     height: 700px;
