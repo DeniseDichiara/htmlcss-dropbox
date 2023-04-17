@@ -116,6 +116,12 @@ section.upper nav ul li{
     text-align: start;
 }
 
+.fourthpa{
+    width: 30%;
+    font-size: 1.2rem;   
+    text-align: start;
+    padding-left: 3rem;
+}
 .imagine1{
     width: 70%;
 }
@@ -145,6 +151,12 @@ h2{
     margin: 0 auto;
     padding: 10px 20px;
     border: #0061ff 0px;
+}
+
+.botton-white{
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 20px;
 }
 
 .containersection-2{
@@ -252,9 +264,7 @@ h2{
 }
 
 .img-ppl{
-    background-color: rgb(236, 143, 201);
     flex-direction: row;
-    border-right: 0.2rem dotted yellow;
     width: 70%;
     height: 100%;
 }
@@ -295,3 +305,5 @@ h2{
     width: calc(100% / 5);
     height: 100%;
 }
+
+-------------------------------
