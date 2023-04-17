@@ -27,6 +27,18 @@ ul{
     padding-top: 3rem;
 }
 
+.down{
+    padding-bottom: 3rem;
+}
+
+.singolo{
+    padding-bottom: 9rem;
+}
+
+.Azienda{
+    padding-bottom: 7rem;
+}
+
 header{
     background-color: #ffffff;
 }
@@ -120,7 +132,15 @@ h2{
 }
 
 .padding-left{
-    padding: 30px 20px;
+    padding: 40px 30px;
+}
+
+.botton-blue{
+    background-color: #0061ff;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: #0061ff 0px;
 }
 
 .containersection-2{
@@ -136,7 +156,7 @@ h2{
 }
 
 .margin-top{
-    margin-top: 15rem;
+    margin-top: 800px;
 }
 
 .div-container5{
