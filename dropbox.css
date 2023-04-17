@@ -19,6 +19,14 @@ ul{
     list-style-type: none;
 }
 
+.list-icon{
+    padding-bottom: 1rem;
+}
+
+.up{
+    padding-top: 3rem;
+}
+
 header{
     background-color: #ffffff;
 }
@@ -97,24 +105,38 @@ section.upper nav ul li{
 }
 
 .main-section{
-    background-color: orange;
     height: 500px;
     width: 1000px;
-    margin-top: 5rem;
+    margin-top: 10rem;
+}
+
+h2{
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+}
+.border{
+    border: 0.2rem solid lightgrey;
+    margin-right: 3rem;
+}
+
+.padding-left{
+    padding: 30px 20px;
 }
 
 .containersection-2{
     display: flex;
-    background-color: black;
     height: 100%;
+    margin-top: 3rem;
 }
 
 .div-container{
-    background-color: rgb(236, 143, 201);
     flex-direction: row;
-    border-right: 0.2rem dotted yellow;
     width: 33%;
     height: 100%;
+}
+
+.margin-top{
+    margin-top: 15rem;
 }
 
 .div-container5{
@@ -131,7 +153,8 @@ section.upper nav ul li{
 }
 
 .radio-button{
-    background-color: crimson;
+   font-size: 1.5rem;
+   margin-bottom: 3rem;
 }
 
 .section-4-contacts{
