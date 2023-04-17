@@ -68,20 +68,28 @@ section.upper nav ul li{
 }
 
 .jumbotron-section{
-    height: 400px;
+    height: 650px;
     width:1200px;
     margin-top: 5rem;
 }
 
 .jumbotron-section-central{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 100%;
+    padding-bottom: 3rem;
+}
+
+/* sistemare font family*/
+.main-title{
+    font-size: 6rem;
+    padding-bottom: 3rem;
 }
 
 .firstpa{
-    background-color: blueviolet;
     width: 30%;
+    font-size: 1.2rem;   
+    text-align: start;
 }
 
 .imagine1{
