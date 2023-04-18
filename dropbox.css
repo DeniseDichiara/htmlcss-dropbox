@@ -14,6 +14,10 @@
     justify-content: space-between;
 }
 
+.margin-auto{
+    margin: auto;
+}
+
 .logo-dropbox{
    size: 2px;
 }
@@ -208,27 +212,27 @@ h3{
 
 .quadratoni{
     display: flex;
-    flex-direction: row;
-    background-color: #ffd830;
-    height: 500px;
 }
 
 .container-quadratoni{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    border: 5px dotted red;
     display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 33%;
-    background-color: darkblue;
-    border-right: 0.2rem dotted yellow;
+    flex-wrap: wrap
 }
 
 .subcontainer-quadratoni{
-    background-color: rgb(236, 143, 201);
-    flex-direction: row;
-    border-right: 0.2rem dotted yellow;
-    border-bottom: 0.2rem dotted yellow; ;
     width: 50%;
     height: 50%;
+    border: #0061ff 5px solid;
+}
+.img-quad1{
+    background-color: #a2d39b;
+    text-align: center
+}
+.img-logo{
+    text-align: center;
 }
 
 .quadratoni-BOTTOM{
@@ -245,6 +249,7 @@ h3{
     width: 60%;
 }
 
+/*
 .quadratoni-start-end{
     background-color: rgb(236, 143, 201);
     flex-direction: row;
@@ -253,7 +258,7 @@ h3{
     width: 25%;
     height: 25%;
 }
-
+*/
 .FAQ{
     background-color: violet;
     height: 700px;
