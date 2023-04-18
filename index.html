@@ -16,26 +16,20 @@
             <section class="section-left-right nav-padding"> <!--SECTION RIGHT & LEFT sarà in flex in modo da fare j-c SPACE-BETWEEN tra la RIGHT e la LEFT-->
 
                 <!--SECTION RIGHT in caso aggiungo pò di padding--> 
-                <div class="section-left">
-                    <div class="nav-padding">
-                        <img src="logo-small.png" class="logo-dropbox" alt="Dropbox-logo">
-                    </div>
-                    <nav>
-                        <ul class="flex">
-                            <li>Perchè Dropbox</li> <li>Funzioni</li> <li>Piani e Prezzi</li>
-                        </ul>
-                    </nav>
+                <div class="flex-s-b">
+                        <img src="logo-small.png" class="logo-dropbox" alt="Dropbox-logo" width="150px">
+                        <div>
+                            <button class="botton-blue">Inizia</button>
+                        </div>
                 </div>
 
                 <!--SECTION LEFT-->
                 <div class="section-right">
                     <nav>
                         <ul class="flex">
-                            <li>Supporto</li> <li>Contatta l'ufficio vendite</li> <li>Accedi</li>
                         </ul>
                     </nav>
                     <div class="nav-padding">
-                        <button class="botton-blue">Inizia</button>
                     </div>
                 </div>
             </section>
@@ -62,92 +56,103 @@
             <section class="container"> <!--SECTION 2- BUSINESS-->
                 <div class="main-section">
                     <h2>Trova il business che fa per te</h2>
-                    <span class="radio-button">
-                        <input type="radio" id="html" name="fav_language" value="HTML"><label for="html">Fatturazione mensile</label>
-                        <input type="radio" id="html" name="fav_language" value="HTML"><label for="html">Fatturazione annuale</label>
-                    </span>
+                    <div class="radio-button">
+                        <span class="span-radio-button">
+                            <input type="radio" id="html" name="fav_language" value="HTML"><label for="html">Fatturazione mensile</label>
+                        
+                        </span>
+                        <span>
+                            <input type="radio" id="html" name="fav_language" value="HTML"><label for="html">Fatturazione annuale</label>
+                        </span>
+                    </div>
+                    
                     <div class="containersection-2">
-
-                        <div class="div-container">
-                            <div class="border text-align"> <!--immagine--> Singolo</div>
-                            <div class="border padding-left">
-                                <div>
-                                    <h3>Professional</h3>
-                                    <p class="sub-title1">12.00</p>
-                                    <p class="sub-title2">/mese</p>
+                        <div class="jumbotron-section-central padding-extra">
+                            <div class="div-container">
+                                <div class="border text-align"> <!--immagine--> Singolo</div>
+                                <div class="border padding-left">
+                                    <div>
+                                        <h3>Professional</h3>
+                                        <p class="sub-title1">12.00</p>
+                                        <p class="sub-title2">/mese</p>
+                                    </div>
+                                    <ul>
+                                        <li  class="list-icon up">1 utente</li>
+                                        <li  class="list-icon">5 TB di spazio di archiviazione sicuro</li>
+                                        <li  class="list-icon">Funzioni di produttività premium e condivisione file semplice e sicura</li>    
+                                    </ul>
+                                    <button class="botton-blue">Prova gratis per 30 giorni</button>
+                                    <p class="up down">oppure <a href=""> Acquista ora</a></p>
+                                    <hr>
+                                    <p class="up down">Punti Salienti del piano</p>
+                                    <ul class="singolo">
+                                        <li class="list-icon">Invia file a 100 GB con Dropbox Transfert</li>
+                                        <li class="list-icon">Cartelle offline su dispositivi mobili</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li  class="list-icon up">1 utente</li>
-                                    <li  class="list-icon">5 TB di spazio di archiviazione sicuro</li>
-                                    <li  class="list-icon">Funzioni di produttività premium e condivisione file semplice e sicura</li>    
-                                </ul>
-                                <button class="botton-blue">Prova gratis per 30 giorni</button>
-                                <p class="up down">oppure <a href=""> Acquista ora</a></p>
-                                <hr>
-                                <p class="up down">Punti Salienti del piano</p>
-                                <ul class="singolo">
-                                    <li class="list-icon">Invia file a 100 GB con Dropbox Transfert</li>
-                                    <li class="list-icon">Cartelle offline su dispositivi mobili</li>
-                                </ul>
                             </div>
+    
+                            <div class="div-container">
+                                <div class="border text-align"> <!--immagine--> Team</div>
+                                <div class="border padding-left">
+                                    <div>
+                                        <h3>Advanced</h3>
+                                        <p class="sub-title1">18.00</p>
+                                        <p class="sub-title2">/utente/mese</p>
+                                    </div>
+                                    <ul>
+                                        <li  class="list-icon up">3 o più utenti</li>
+                                        <li  class="list-icon">Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                        <li  class="list-icon">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>    
+                                    </ul>
+                                    <button class="botton-blue">Prova gratis per 30 giorni</button>
+                                    <p class="up down">oppure <a href=""> Acquista ora</a></p>
+                                    <hr>
+                                    <p class="up down">Punti Salienti del piano</p>
+                                    <ul>
+                                        <li class="list-icon">Nessun limite di spazio per i file</li>
+                                        <li class="list-icon">Cartelle offline su dispositivi mobili</li>
+                                        <li class="list-icon">Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                        <li class="list-icon">Possibilità di inserire nuovi membri del team</li>
+                                        <li class="list-icon">Gestione dei permessi in base ai ruoli</li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="div-container">
+                                <div class="border text-align"> <!--immagine-->Azienda</div>
+                                <div class="border padding-left">
+                                    <div>
+                                        <h3>Enterprise</h3>
+                                        <p class="sub-title1">Contattaci</p>
+                                        <p class="sub-title2">-</p>
+                                    </div>
+                                    <ul>
+                                        <li  class="list-icon up">10 opiù utenti</li>
+                                        <li  class="list-icon">Soluzioni personalizzabili per la tua azienda</li>
+                                        <li  class="list-icon">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>    
+                                    </ul>
+                                    <button class="botton-blue">Contattaci</button>
+                                    <p class="up down">oppure <a href=""> Acquista ora</a></p>
+                                    <hr>
+                                    <p class="up down">Punti Salienti del piano</p>
+                                    <ul class="Azienda">
+                                        <li class="list-icon">Cartelle offline su dispositivi mobili</li>
+                                        <li class="list-icon">Servizio di assistenza 24h</li>
+                                        <li class="list-icon">Possibilità di personalizzazione totale</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
                         </div>
 
-                        <div class="div-container">
-                            <div class="border text-align"> <!--immagine--> Team</div>
-                            <div class="border padding-left">
-                                <div>
-                                    <h3>Advanced</h3>
-                                    <p class="sub-title1">18.00</p>
-                                    <p class="sub-title2">/utente/mese</p>
-                                </div>
-                                <ul>
-                                    <li  class="list-icon up">3 o più utenti</li>
-                                    <li  class="list-icon">Tutto lo spazio di cui ha bisogno il tuo team</li>
-                                    <li  class="list-icon">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>    
-                                </ul>
-                                <button class="botton-blue">Prova gratis per 30 giorni</button>
-                                <p class="up down">oppure <a href=""> Acquista ora</a></p>
-                                <hr>
-                                <p class="up down">Punti Salienti del piano</p>
-                                <ul>
-                                    <li class="list-icon">Nessun limite di spazio per i file</li>
-                                    <li class="list-icon">Cartelle offline su dispositivi mobili</li>
-                                    <li class="list-icon">Risparmio del 50% rispetto alle iscrizioni singole</li>
-                                    <li class="list-icon">Possibilità di inserire nuovi membri del team</li>
-                                    <li class="list-icon">Gestione dei permessi in base ai ruoli</li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div class="div-container">
-                            <div class="border text-align"> <!--immagine-->Azienda</div>
-                            <div class="border padding-left">
-                                <div>
-                                    <h3>Enterprise</h3>
-                                    <p class="sub-title1">Contattaci</p>
-                                    <p class="sub-title2">-</p>
-                                </div>
-                                <ul>
-                                    <li  class="list-icon up">10 opiù utenti</li>
-                                    <li  class="list-icon">Soluzioni personalizzabili per la tua azienda</li>
-                                    <li  class="list-icon">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>    
-                                </ul>
-                                <button class="botton-blue">Contattaci</button>
-                                <p class="up down">oppure <a href=""> Acquista ora</a></p>
-                                <hr>
-                                <p class="up down">Punti Salienti del piano</p>
-                                <ul class="Azienda">
-                                    <li class="list-icon">Cartelle offline su dispositivi mobili</li>
-                                    <li class="list-icon">Servizio di assistenza 24h</li>
-                                    <li class="list-icon">Possibilità di personalizzazione totale</li>
-                                </ul>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
-
-
 
                  <section class="container paddding-bottom"> <!--SECTION 3 TEAM-->
                     <div class="margin-top">
@@ -167,9 +172,11 @@
                     </div>
                 </section>
 
-                    <section class="container"> <!--SECTION 4 CONTACTS-->
+                    <section class="container down"> <!--SECTION 4 CONTACTS-->
                         <div class="flex">
-                            <div class="img-ppl"><img src="partner.png" alt="people-talking" width="100%"></div>
+                            <div class="img-ppl">
+                                <img src="partner.png" alt="people-talking" width="100%">
+                            </div>
                             <div class="fourthpa">
                                 <h3 class="down">Entra in contatto con un partner Dropbox</h3>
                                 <div class="down">
@@ -181,17 +188,44 @@
                     </section>
 
             <section class="container"> <!--SECTION 5 OPERATIONS-->
-                <div class="main-section">
-                    <h2>ESEGUI PIù OPERAZIONI CON DROPBOX</h2>
+                    <h2 class="up">Esegui più operazioni con Dropbox Business</h2>
                     <div class="containersection-5">
-                        <div class="div-container5">PROFESSIONAL</div>
-                        <div class="div-container5">ADVANCED</div>
-                        <div class="div-container5">ENTERPRISE</div>
-                        <div class="div-container5">PROFESSIONAL 2</div>
-                        <div class="div-container5">ADVANCED 2</div>
-                        <div class="div-container5">ENTERPRISE 2</div>
-                    </div>
+                        <div class="div-container5">
+                            <img src="business-feature-switching-tools.png" alt="folder-with-tools" width="100%">
+                            <h3 class="subtitle down">Passa di meno da uno strumento all'altro</h3>
+                            <p class="down">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
 
+                        <div class="div-container5">
+                            <img src="business-feature-send-files-it.png" alt="folder-with-tools" width="100%">
+                            <h3 class="subtitle down">Passa di meno da uno strumento all'altro</h3>
+                            <p class="down">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+
+                        <div class="div-container5">
+                            <img src="business-feature-coordinate-it.png" alt="folder-with-tools" width="100%">
+                            <h3 class="subtitle down">Passa di meno da uno strumento all'altro</h3>
+                            <p class="down">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+
+                        <div class="div-container5">
+                            <img src="business-feature-integrations-it.png" alt="folder-with-tools" width="100%">
+                            <h3 class="subtitle down">Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+
+                        <div class="div-container5">
+                            <img src="business-feature-multi-device.png" alt="folder-with-tools" width="100%">
+                            <h3 class="subtitle down">Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+
+                        <div class="div-container5">
+                            <img src="business-feature-security.png" alt="folder-with-tools" width="100%">
+                            <h3 class="subtitle down">Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+                    </div>
             </section>
 
             <section class="container"> <!--SECTION 6 500.000-->
