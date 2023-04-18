@@ -163,6 +163,13 @@ h3{
     margin: 0 auto;
     padding: 10px 20px;
 }
+/*
+..botton-white-special{
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 20px;  
+}
+*/
 
 .containersection-2{
     display: flex;
@@ -217,7 +224,6 @@ h3{
 .container-quadratoni{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-    border: 5px dotted red;
     display: flex;
     flex-wrap: wrap
 }
@@ -225,7 +231,6 @@ h3{
 .subcontainer-quadratoni{
     width: 50%;
     height: 50%;
-    border: #0061ff 5px solid;
 }
 
 .filter-color{
@@ -234,7 +239,6 @@ h3{
 
 .img-quad0{
     background-color: #f5f5f5;
-    text-align: center
 }
 .img-quad1{
     background-color: #a2d39b;
@@ -278,30 +282,18 @@ h3{
 .quadratoni-BOTTOM{
     display: flex;
     justify-content: center;
-    background-color: cornflowerblue;
+    align-items: center;
+    background-color: #b4d0e7;
     height: 300px;
 }
 
 .flex-quadratoni-BOTTOM{
     display: flex;
     justify-content: space-between;
+    /*
     background-color: blueviolet;
-    width: 60%;
-}
-
-/*
-.quadratoni-start-end{
-    background-color: rgb(236, 143, 201);
-    flex-direction: row;
-    border-right: 0.2rem dotted yellow;
-    border-bottom: 0.2rem dotted yellow; ;
-    width: 25%;
-    height: 25%;
-}
-*/
-.FAQ{
-    background-color: violet;
-    height: 700px;
+    */
+    width: 40%;
 }
 
 .footer-scection{
@@ -326,7 +318,6 @@ h3{
 
 .FAQ-section{
     display: flex;
-    background-color:rebeccapurple;
     width: 60%;
     
 }
